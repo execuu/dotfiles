@@ -1,0 +1,295 @@
+[2025-09-05 13:59:20.051] [info]  (main)         AppID generated {
+  id: 'e1371b3e-8156-4df1-9d75-bcdb87ef91f5',
+  hash: '7c14c5e8c4bbf53b14da29560a4b4ea9713e823edfac8a1db766cce4089d0600',
+  distribution: 0.4846919720919088
+}
+[2025-09-05 13:59:20.067] [info]  (settings)     Settings not found, using default settings
+[2025-09-05 13:59:20.108] [info]  (main)         App start is mac: false is windows: false islinux: true version: 1.9.0 params [ '/opt/proton-mail/Proton Mail Beta' ]
+[2025-09-05 13:59:20.112] [info]  (main)         Build info: {"idaTag":"ida-356","buildTag":"ida-356","appVersion":"1.9.0"}
+[2025-09-05 13:59:20.113] [info]  (main)         Desktop features: inapppayments:true, themeselection:true, earlyaccess:true, multiaccount:true, latestversioncheck:true, installsource:true, mailtotelemetry:false, mailtoupdate:true, esuserchoice:true, fulltheme:true, storeversion:true, heartbeatmetrics:true, statstelemetry:true, restrictedthemeselection:true, clearappmodal:true
+[2025-09-05 13:59:20.131] [info]  (main)         Enable check default mail to app
+[2025-09-05 13:59:20.132] [info]  (protocol)     Requested to check if app default mailto. Current status: true
+[2025-09-05 13:59:20.135] [debug] (protocol)     Storing default protocols: {
+  mailto: {
+    shouldBeDefault: true,
+    wasDefaultInPast: false,
+    lastReport: { wasDefault: false, timestamp: 0 },
+    canUpdateDefault: true
+  }
+}
+[2025-09-05 13:59:20.377] [debug] (protocol)     Checking default mailto
+[2025-09-05 13:59:20.496] [info]  (protocol)     App default mailto client status {
+  isDefault: false,
+  wasChecked: true,
+  shouldBeDefault: true,
+  wasDefaultInPast: false,
+  canUpdateDefault: true,
+  lastReport: { wasDefault: false, timestamp: 0 }
+}
+[2025-09-05 13:59:20.498] [info]  (update)       Initialization of update checks.
+[2025-09-05 13:59:20.499] [info]  (update)       Checking for new valid version.
+[2025-09-05 13:59:20.574] [info]  (main)         Creating views
+[2025-09-05 13:59:20.586] [info]  (main)         Skipping heartbeat, listener is not ready
+[2025-09-05 13:59:20.672] [info]  (mail)         loadURL from  to https://mail.proton.me/
+[2025-09-05 13:59:21.289] [warn]  (update)       Check update: failed to get available versions: Error: net::ERR_ADDRESS_UNREACHABLE
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:118803)
+    at SimpleURLLoaderWrapper.emit (node:events:524:28)
+[2025-09-05 13:59:21.682] [info]  (mail)         did-navigate https://mail.proton.me/
+[2025-09-05 13:59:21.684] [debug] (mail)         did-navigate set zoom factor to 1
+[2025-09-05 13:59:24.135] [debug] (mail)         did-finish-load https://mail.proton.me/
+[2025-09-05 13:59:24.137] [verbose] (mail)         updating view bounds {"x":0,"y":0,"width":1200,"height":720}
+[2025-09-05 13:59:24.139] [info]  (mail)         showView showing view for 
+[2025-09-05 13:59:24.221] [info]  (preload)      Sending message: setTheme
+[2025-09-05 13:59:24.236] [info]  (preload)      Sending message: storeAppVersion
+[2025-09-05 13:59:24.240] [info]  (utils)        Application loaded: proton-mail@5.0.78.7
+[2025-09-05 13:59:24.243] [debug] (utils)        Current versions are: 1.9.0 (M 5.0.78.7)
+[2025-09-05 13:59:24.277] [info]  (mail)         will-navigate https://account.proton.me/__FORBIDDEN__?app=proton-mail&state=x20iLJhOk1Db2iu3jXfFVajgur_JPaPyeH-v-3rquBo&v=2&reason=session-expired
+[2025-09-05 13:59:25.183] [info]  (main)         update window bounds {"x":6,"y":6,"width":630,"height":673,"maximized":false,"zoom":1}
+[2025-09-05 13:59:25.320] [error] (mail)         did-fail-load -3 
+[2025-09-05 13:59:25.336] [info]  (mail)         did-navigate https://account.proton.me/__FORBIDDEN__?app=proton-mail&state=x20iLJhOk1Db2iu3jXfFVajgur_JPaPyeH-v-3rquBo&v=2&reason=session-expired
+[2025-09-05 13:59:25.339] [debug] (mail)         did-navigate set zoom factor to 1
+[2025-09-05 13:59:28.145] [info]  (preload)      Sending message: storeAppVersion
+[2025-09-05 13:59:28.148] [info]  (utils)        Application loaded: proton-account@5.0.284.0
+[2025-09-05 13:59:28.149] [debug] (utils)        Current versions are: 1.9.0 (M 5.0.78.7 / A 5.0.284.0)
+[2025-09-05 13:59:28.207] [info]  (preload)      Sending message: setTheme
+[2025-09-05 13:59:28.214] [info]  (mail)         did-navigate-in-page https://account.proton.me/mail
+[2025-09-05 13:59:28.292] [info]  (preload)      Sending message: metricsListenerChanged
+[2025-09-05 13:59:28.294] [debug] (main)         Metrics listener ready
+[2025-09-05 13:59:29.435] [info]  (main)         close, window not visible on Windows or Linux
+[2025-09-05 13:59:29.442] [info]  (main)         All windows closed
+[2025-09-05 14:00:06.883] [info]  (main)         App start is mac: false is windows: false islinux: true version: 1.9.0 params [ '/opt/proton-mail/Proton Mail Beta' ]
+[2025-09-05 14:00:06.890] [info]  (main)         Build info: {"idaTag":"ida-356","buildTag":"ida-356","appVersion":"1.9.0"}
+[2025-09-05 14:00:06.891] [info]  (main)         Desktop features: inapppayments:true, themeselection:true, earlyaccess:true, multiaccount:true, latestversioncheck:true, installsource:true, mailtotelemetry:false, mailtoupdate:true, esuserchoice:true, fulltheme:true, storeversion:true, heartbeatmetrics:true, statstelemetry:true, restrictedthemeselection:true, clearappmodal:true
+[2025-09-05 14:00:07.065] [debug] (protocol)     Checking default mailto
+[2025-09-05 14:00:07.176] [info]  (protocol)     App default mailto client status {
+  isDefault: false,
+  wasChecked: true,
+  shouldBeDefault: true,
+  wasDefaultInPast: false,
+  canUpdateDefault: true,
+  lastReport: { wasDefault: false, timestamp: 0 }
+}
+[2025-09-05 14:00:07.178] [info]  (update)       Initialization of update checks.
+[2025-09-05 14:00:07.179] [info]  (update)       Checking for new valid version.
+[2025-09-05 14:00:07.247] [info]  (main)         Creating views
+[2025-09-05 14:00:07.257] [info]  (main)         Skipping heartbeat, listener is not ready
+[2025-09-05 14:00:07.336] [info]  (mail)         loadURL from  to https://mail.proton.me/
+[2025-09-05 14:00:08.413] [info]  (main)         update window bounds {"x":6,"y":6,"width":630,"height":673,"maximized":false,"zoom":1}
+[2025-09-05 14:00:08.427] [info]  (update)       Skipping update: no newer version avaiable, local: {"Version":"1.9.0","RolloutProportion":0.24756255932129134,"CategoryName":"Stable"} latest: {"CategoryName":"Stable","Version":"1.8.1","ReleaseDate":"2025-07-17","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.8.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"31635456313c2fb4d41172eeaffe779484cb690fcd70cab56ded52064017bef227ea25ed98d9fc7f602200b97b04532b344c35081dfb3a847720f510101b8939"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.8.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"674f79bf272debd27e8aa7d6c7dcc4891d8bbdeb911462b9f63939e0571e681341d017561ed4f22b02d1c73c29bcda5c9c59293802e858cbea7423f2038f580a"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2025-09-05 14:00:08.429] [info]  (update)       Skipping update: no newer version avaiable, local: {"Version":"1.9.0","RolloutProportion":0.24756255932129134,"CategoryName":"Stable"} latest: {"CategoryName":"Stable","Version":"1.8.0","ReleaseDate":"2025-03-06","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.8.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"3267112cc06dc001ac59531abd84bd89a0c44ff0314ad53db2f5eb32de8f2f482ab02241a20682c08ace6cb65c13a74bb12cb77777889e240c3ed6bc64055112"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.8.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"dc869195ccdc23aec3420e042a926151da3dd3c57e3b357665335d3c8c30f14617b69c0020ea040111d04c77e59b2cd4961256882955de44403c4e06a2b0b894"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2025-09-05 14:00:08.431] [info]  (update)       Skipping update: no newer version avaiable, local: {"Version":"1.9.0","RolloutProportion":0.24756255932129134,"CategoryName":"Stable"} latest: {"CategoryName":"Stable","Version":"1.7.1","ReleaseDate":"2025-02-27","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.7.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"42051de5e8045c190752f248fa84263f594b0e9a4e553f8c1ac989a513d2ad521c46632de424f0bbebce1ecd9bbb7c136c3da40bd8feae1819957e5c463616fb"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.7.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"49f26a2964af98287e38c69ae43ebd5e832b34098d853cc13f8f68c372f755a3210141d3230a8b4a6406447898a5a17f3c832f37bdd9ad3f9ef4171862b08bfe"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2025-09-05 14:00:08.432] [info]  (update)       Skipping update: no newer version avaiable, local: {"Version":"1.9.0","RolloutProportion":0.24756255932129134,"CategoryName":"Stable"} latest: {"CategoryName":"Stable","Version":"1.6.1","ReleaseDate":"2024-12-12","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.6.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"fde65a33be182907cc104a5875f2ed2a2fee9621f35d36208ff8e13f7a0118d4a3cdf430308880613096e4e21461a559cd9433f566360eb0f565e14cacf18bc5"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.6.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"8ed5b419dd4f6c3a3a275bffb77a8847cd3c049bdcfc18878b982223fd484ddfa242972cc6a73fb72bbddb08874d8a15d0c16bd63a9e121c724eedf052288fbb"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2025-09-05 14:00:08.433] [info]  (update)       Skipping update: no newer version avaiable, local: {"Version":"1.9.0","RolloutProportion":0.24756255932129134,"CategoryName":"Stable"} latest: {"CategoryName":"Stable","Version":"1.6.0","ReleaseDate":"2024-12-06","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.6.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"7a7b2e93b29c1c9f3ddc44bf7b078b6260c79d981a557581f11bb2677a8317264dcb2e664cb7e4a4d9259872cf6bae5d60b94f9ae6ce3655b9be40b03f78155e"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.6.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"16a37459e008c5cdb8a325fd76b353fc85123a4880ab06e4f44982b48dbdf753e392e06b282cf114f24a840ec3d54e4b86290a27600b311f8e12c92c7bd1226e"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2025-09-05 14:00:08.434] [info]  (update)       Skipping update: no newer version avaiable, local: {"Version":"1.9.0","RolloutProportion":0.24756255932129134,"CategoryName":"Stable"} latest: {"CategoryName":"Stable","Version":"1.5.1","ReleaseDate":"2024-11-27","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.5.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"c0d60eb309170aedcc772e10ca4de73cc6fb057eaf510cc5cba996260bcdd57fd7db8f503fc2b77b40c93a411cc19848727554381a9520470a0d5119c267d6da"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.5.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"546d64484e5b06a551da88540c4ddf73a9b19f8fe88dc72ddc779e23b6094ca571593d81ebcdfc5228e3f426832f870301f48af2db6ee774bc681441a27ea651"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2025-09-05 14:00:08.435] [info]  (update)       Skipping update: no newer version avaiable, local: {"Version":"1.9.0","RolloutProportion":0.24756255932129134,"CategoryName":"Stable"} latest: {"CategoryName":"Stable","Version":"1.4.0","ReleaseDate":"2024-11-20","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.4.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"4e1777fd84c70e63bfb5330bc5d13bfe56d07d0544ec426d8a6d037b80568b41ec7c7055f43634e09d3bf9c3212fc7ccd730703e51c065643c2c4ceb1ad6b582"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.4.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"847f564a1c292957175b4b9f114438e2f9edf2ee9f9c7a22121375797926c9372f5b1e4e13ff01b202fd4d09f1f7c25512da2b5c2f6a4a6ac3a8777ac83f78a8"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2025-09-05 14:00:08.436] [info]  (update)       Skipping update: no newer version avaiable, local: {"Version":"1.9.0","RolloutProportion":0.24756255932129134,"CategoryName":"Stable"} latest: {"CategoryName":"Stable","Version":"1.3.2","ReleaseDate":"2024-11-12","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.3.2/ProtonMail-desktop-beta.deb","Sha512CheckSum":"d978d748f4b3b3e08fb6e962c110dd66868fddfc657c96018c1c808b7d00c4aa01430d7266ee7a966b8fe71322f2914bff179e9258b477a5d56cc5be01d738ad"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.3.2/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"10cf5ea806b8398312dc2a0a6eb218c5262d4c2c5555503feb094ff2d838270e01eb5862729a709fb86cfcc33bff17447119dd0c534cf697aa179fb8e4d05ac1"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2025-09-05 14:00:08.437] [info]  (update)       Skipping update: no newer version avaiable, local: {"Version":"1.9.0","RolloutProportion":0.24756255932129134,"CategoryName":"Stable"} latest: {"CategoryName":"Stable","Version":"1.2.4","ReleaseDate":"2024-10-02","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.2.4/ProtonMail-desktop-beta.deb","Sha512CheckSum":"a439906d06d6b46505bae017d3152ae2341e3c0ef3588037323484b29238f6be282af4c0da1779142c10b1a210bbd0480e35e15b0b754e9b7868bba6d00e6d0a"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.2.4/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"1e63ea89ecb3ddcf535eb0f25c0e53bb5d9aaf5d38535785a97143091544f3aac2a42d4f7556516d7c03457edcfe26556b4f65a98355032799d43a314bc80628"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2025-09-05 14:00:08.439] [info]  (update)       Skipping update: no newer version avaiable, local: {"Version":"1.9.0","RolloutProportion":0.24756255932129134,"CategoryName":"Stable"} latest: {"CategoryName":"Stable","Version":"1.1.2","ReleaseDate":"2024-09-17","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.1.2/ProtonMail-desktop-beta.deb","Sha512CheckSum":"ce5568970c64da64a4bfe8cd88c2c42dc2edf7d1d502e0c0150eb9cd64ebad6faf3b5269ed942a7a64c398006fda738b55656e9a69aa7a6b15233d9b497a11d2"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.1.2/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"36e0484ecf6f10a33f21d4333c6472d18ede15f3d5d5fab8afc4ce9d84d48226a930056c1fee1ce069523c4a6b1c9f2496bc1fa1d2538e05a8577a098e6185e6"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2025-09-05 14:00:08.440] [info]  (update)       Skipping update: no newer version avaiable, local: {"Version":"1.9.0","RolloutProportion":0.24756255932129134,"CategoryName":"Stable"} latest: {"CategoryName":"Stable","Version":"1.1.0","ReleaseDate":"2024-09-03","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.1.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"efa5fca38fc76cbd13ae2b153c1eff9d233b62be5b4ccec5647cff57c055a1975176219255eebe3f0e8cc1df3933cbd807aa41c99e3ba24e35ce24d6145d2953"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.1.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"c7871b1a1421ccb2a5ce808196f9ed996af9a408066b8d8d79f3852f29e4c0a0063ce89a86d5b9683fea38392bb94eed1ddac73ce4b2bbd6d7f799b1894e82b4"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2025-09-05 14:00:08.441] [info]  (update)       Skipping update: no newer version avaiable, local: {"Version":"1.9.0","RolloutProportion":0.24756255932129134,"CategoryName":"Stable"} latest: {"CategoryName":"Stable","Version":"1.0.6","ReleaseDate":"2024-08-01","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/ProtonMail-desktop-beta.deb","Sha512CheckSum":"fb51c0cd2124188ec40ba38c863933905a26a7457e8738048865ed4a43feb6afb30df8f20924eccfaca9e69e17f0b63960fc2e986edaaf714906d56534b8b462"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"ac294dabfd3150c26acf46d9988942778076191d4b1b100798de06d6fbaececa87083d72c6e717259969250a711ef7559e20cb6d862b890244cc34d917b86e6e"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2025-09-05 14:00:08.443] [info]  (update)       Skipping update: no newer version avaiable, local: {"Version":"1.9.0","RolloutProportion":0.24756255932129134,"CategoryName":"Stable"} latest: {"CategoryName":"Stable","Version":"1.0.5","ReleaseDate":"2024-07-09","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/ProtonMail-desktop-beta.deb","Sha512CheckSum":"108e434004b323d63f3240f86f8c6e13d0e42d09a59846a8d04b44914927985e93e68ca11ca110581186fc663b28e5eec6d3b49751c0eca9e04f0dea3cf753b3"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"00a2742aa487b3b08ab15502895b967272d6096ccc442087cb8d4be11b6842fac5856746ad2dfe45f99f229fbfa3d59b2b8c105e61ed86f8d75e80d160527212"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2025-09-05 14:00:08.840] [info]  (mail)         did-navigate https://mail.proton.me/
+[2025-09-05 14:00:08.842] [debug] (mail)         did-navigate set zoom factor to 1
+[2025-09-05 14:00:09.264] [debug] (mail)         did-finish-load https://mail.proton.me/
+[2025-09-05 14:00:09.266] [verbose] (mail)         updating view bounds {"x":0,"y":0,"width":630,"height":673}
+[2025-09-05 14:00:09.267] [info]  (mail)         showView showing view for 
+[2025-09-05 14:00:09.353] [info]  (preload)      Sending message: setTheme
+[2025-09-05 14:00:09.363] [info]  (preload)      Sending message: storeAppVersion
+[2025-09-05 14:00:09.365] [info]  (utils)        Application loaded: proton-mail@5.0.78.7
+[2025-09-05 14:00:09.367] [debug] (utils)        Current versions are: 1.9.0 (M 5.0.78.7)
+[2025-09-05 14:00:09.383] [info]  (mail)         will-navigate https://account.proton.me/__FORBIDDEN__?app=proton-mail&state=b47T2PTU3HcevPRh_kWOoHKVFGBeZf1mcXaJtWMexWo&v=2&reason=session-expired
+[2025-09-05 14:00:09.448] [error] (mail)         did-fail-load -109 ERR_ADDRESS_UNREACHABLE
+[2025-09-05 14:00:09.521] [info]  (mail)         did-navigate file:///opt/proton-mail/resources/error-network.html?color=%237A6E80&backgroundColor=%2316141c&title=Cannot%20establish%20connection&description=Check%20your%20internet%20connection%20or%20network%20settings.%20If%20the%20issue%20persists%2C%20please%20contact%20customer%20support.&button=Try%20again&buttonTarget=https%3A%2F%2Fmail.proton.me
+[2025-09-05 14:00:10.314] [info]  (main)         update window bounds {"x":6,"y":6,"width":1268,"height":673,"maximized":false,"zoom":1}
+[2025-09-05 14:00:10.979] [info]  (mail)         will-navigate https://mail.proton.me/
+[2025-09-05 14:00:11.278] [info]  (mail)         will-navigate https://mail.proton.me/
+[2025-09-05 14:00:11.597] [info]  (mail)         did-navigate https://mail.proton.me/
+[2025-09-05 14:00:11.599] [debug] (mail)         did-navigate set zoom factor to 1
+[2025-09-05 14:00:11.884] [info]  (preload)      Sending message: setTheme
+[2025-09-05 14:00:11.895] [info]  (preload)      Sending message: storeAppVersion
+[2025-09-05 14:00:11.899] [info]  (utils)        Application loaded: proton-mail@5.0.78.7
+[2025-09-05 14:00:11.901] [debug] (utils)        Current versions are: 1.9.0 (M 5.0.78.7)
+[2025-09-05 14:00:11.908] [info]  (mail)         will-navigate https://account.proton.me/__FORBIDDEN__?app=proton-mail&state=mCU7f5cltp_KRKA3Y_-TEqHxOqKpEF4J-pGO7FARg0A&v=2&reason=session-expired
+[2025-09-05 14:00:12.513] [error] (mail)         did-fail-load -3 
+[2025-09-05 14:00:12.529] [info]  (mail)         did-navigate https://account.proton.me/__FORBIDDEN__?app=proton-mail&state=mCU7f5cltp_KRKA3Y_-TEqHxOqKpEF4J-pGO7FARg0A&v=2&reason=session-expired
+[2025-09-05 14:00:12.531] [debug] (mail)         did-navigate set zoom factor to 1
+[2025-09-05 14:00:12.936] [info]  (preload)      Sending message: storeAppVersion
+[2025-09-05 14:00:12.938] [info]  (utils)        Application loaded: proton-account@5.0.284.0
+[2025-09-05 14:00:12.939] [debug] (utils)        Current versions are: 1.9.0 (M 5.0.78.7 / A 5.0.284.0)
+[2025-09-05 14:00:12.970] [info]  (preload)      Sending message: setTheme
+[2025-09-05 14:00:12.981] [info]  (mail)         did-navigate-in-page https://account.proton.me/mail
+[2025-09-05 14:00:13.062] [info]  (preload)      Sending message: metricsListenerChanged
+[2025-09-05 14:00:13.066] [debug] (main)         Metrics listener ready
+[2025-09-05 14:00:17.179] [debug] (main)         request-load-time average: 21ms deviation: 15ms max: 57ms count: 41
+[2025-09-05 14:00:37.178] [debug] (main)         request-load-time average: 193ms deviation: 189ms max: 381ms count: 2
+[2025-09-05 14:00:43.238] [info]  (preload)      Sending message: userLogin
+[2025-09-05 14:00:43.242] [info]  (calendar)     reset to blank
+[2025-09-05 14:00:43.249] [info]  (account)      reset to blank
+[2025-09-05 14:00:43.299] [info]  (account)      did-navigate file:///opt/proton-mail/resources/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%237A6E80&backgroundColor=%2316141c
+[2025-09-05 14:00:43.305] [info]  (calendar)     did-navigate file:///opt/proton-mail/resources/loading.html?message=Loading%20Proton%20Calendar%E2%80%A6&color=%237A6E80&backgroundColor=%2316141c
+[2025-09-05 14:00:43.469] [verbose] (view)         updating view bounds {"x":0,"y":0,"width":1268,"height":673}
+[2025-09-05 14:00:43.471] [verbose] (view)         updating view bounds {"x":0,"y":0,"width":1268,"height":673}
+[2025-09-05 14:00:43.698] [info]  (mail)         will-navigate https://mail.proton.me/login#selector=sh62htk7n4omthvsdb3brmfufj5tp27w&state=mCU7f5cltp_KRKA3Y_-TEqHxOqKpEF4J-pGO7FARg0A&sk=DFAGXknZRIT1RZAbB-02_CLSBf4hFwRkQCVupWsMNv0&v=2&p=1&tr=1&pv=1&pt=default&source=0
+[2025-09-05 14:00:44.016] [info]  (mail)         did-navigate https://mail.proton.me/login#selector=sh62htk7n4omthvsdb3brmfufj5tp27w&state=mCU7f5cltp_KRKA3Y_-TEqHxOqKpEF4J-pGO7FARg0A&sk=DFAGXknZRIT1RZAbB-02_CLSBf4hFwRkQCVupWsMNv0&v=2&p=1&tr=1&pv=1&pt=default&source=0
+[2025-09-05 14:00:44.019] [debug] (mail)         did-navigate set zoom factor to 1
+[2025-09-05 14:00:44.184] [info]  (preload)      Sending message: setTheme
+[2025-09-05 14:00:44.192] [info]  (preload)      Sending message: storeAppVersion
+[2025-09-05 14:00:44.195] [info]  (utils)        Application loaded: proton-mail@5.0.78.7
+[2025-09-05 14:00:44.197] [debug] (utils)        Current versions are: 1.9.0 (M 5.0.78.7 / A 5.0.284.0)
+[2025-09-05 14:00:47.179] [debug] (main)         request-load-time average: 207ms deviation: 354ms max: 1025ms count: 11
+[2025-09-05 14:00:47.628] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/1/
+[2025-09-05 14:00:47.631] [info]  (main)         Rewriting URL to include local id https://calendar.proton.me/u/1/
+[2025-09-05 14:00:47.633] [info]  (calendar)     reset to home page https://calendar.proton.me/u/1/
+[2025-09-05 14:00:47.635] [info]  (calendar)     loadURL from file:///opt/proton-mail/resources/loading.html?message=Loading%20Proton%20Calendar%E2%80%A6&color=%237A6E80&backgroundColor=%2316141c to https://calendar.proton.me/u/1/
+[2025-09-05 14:00:47.639] [info]  (account)      reset to blank
+[2025-09-05 14:00:47.665] [info]  (account)      did-navigate file:///opt/proton-mail/resources/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%237A6E80&backgroundColor=%2316141c
+[2025-09-05 14:00:47.711] [verbose] (view)         updating view bounds {"x":0,"y":0,"width":1268,"height":673}
+[2025-09-05 14:00:48.872] [info]  (calendar)     did-navigate https://calendar.proton.me/u/1/
+[2025-09-05 14:00:48.875] [debug] (calendar)     did-navigate set zoom factor to 1
+[2025-09-05 14:00:48.936] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:00:48.939] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:00:48.942] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:00:48.946] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:00:48.949] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:00:48.952] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:00:48.956] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:00:48.959] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:00:48.981] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:00:48.985] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:00:48.993] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/1/inbox
+[2025-09-05 14:00:48.996] [info]  (main)         Rewriting URL to include local id https://calendar.proton.me/u/1/
+[2025-09-05 14:00:48.999] [info]  (calendar)     reset to home page https://calendar.proton.me/u/1/
+[2025-09-05 14:00:49.002] [info]  (calendar)     loadURL already in given url https://calendar.proton.me/u/1/
+[2025-09-05 14:00:49.004] [info]  (account)      reset to blank
+[2025-09-05 14:00:49.003] [info]  (preload)      Sending message: updateNotification
+[2025-09-05 14:00:49.013] [info]  (ipc)          Update badge value 0
+[2025-09-05 14:00:49.015] [info]  (ipc)          Reset badge value
+[2025-09-05 14:00:49.032] [info]  (account)      did-navigate file:///opt/proton-mail/resources/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%237A6E80&backgroundColor=%2316141c
+[2025-09-05 14:00:49.077] [verbose] (view)         updating view bounds {"x":0,"y":0,"width":1268,"height":673}
+[2025-09-05 14:00:49.081] [info]  (preload)      Sending message: checkDailyStatsAndSignal
+[2025-09-05 14:00:49.084] [debug] (protocol)     Checking default mailto
+[2025-09-05 14:00:49.177] [info]  (protocol)     App default mailto client status {
+  isDefault: false,
+  wasChecked: true,
+  shouldBeDefault: true,
+  wasDefaultInPast: false,
+  canUpdateDefault: true,
+  lastReport: { wasDefault: false, timestamp: 0 }
+}
+[2025-09-05 14:00:49.187] [info]  (preload)      Sending message: metricsListenerChanged
+[2025-09-05 14:00:49.191] [debug] (main)         Metrics listener ready
+[2025-09-05 14:00:49.391] [error] (mail)         did-fail-load -109 ERR_ADDRESS_UNREACHABLE
+[2025-09-05 14:00:49.510] [info]  (mail)         did-navigate file:///opt/proton-mail/resources/error-network.html?color=%237A6E80&backgroundColor=%2316141c&title=Cannot%20establish%20connection&description=Check%20your%20internet%20connection%20or%20network%20settings.%20If%20the%20issue%20persists%2C%20please%20contact%20customer%20support.&button=Try%20again&buttonTarget=https%3A%2F%2Fmail.proton.me
+[2025-09-05 14:00:50.979] [debug] (calendar)     did-finish-load https://calendar.proton.me/u/1/
+[2025-09-05 14:00:51.017] [info]  (preload)      Sending message: setTheme
+[2025-09-05 14:00:51.029] [info]  (preload)      Sending message: storeAppVersion
+[2025-09-05 14:00:51.033] [info]  (utils)        Application loaded: proton-calendar@5.0.63.6
+[2025-09-05 14:00:51.035] [debug] (utils)        Current versions are: 1.9.0 (M 5.0.78.7 / A 5.0.284.0 / C 5.0.63.6)
+[2025-09-05 14:00:51.051] [info]  (calendar)     will-navigate https://account.proton.me/__FORBIDDEN__?app=proton-calendar&state=-y--nrqDvdQ6qE8o-bC2cR1pxAPB3d-KYSybrvvO9tM&v=2&u=1&reason=session-expired
+[2025-09-05 14:00:51.068] [info]  (mail)         will-navigate https://mail.proton.me/
+[2025-09-05 14:00:51.388] [info]  (mail)         did-navigate https://mail.proton.me/
+[2025-09-05 14:00:51.395] [debug] (mail)         did-navigate set zoom factor to 1
+[2025-09-05 14:00:51.404] [error] (calendar)     did-fail-load -3 
+[2025-09-05 14:00:51.416] [info]  (calendar)     did-navigate https://account.proton.me/__FORBIDDEN__?app=proton-calendar&state=-y--nrqDvdQ6qE8o-bC2cR1pxAPB3d-KYSybrvvO9tM&v=2&u=1&reason=session-expired
+[2025-09-05 14:00:51.418] [debug] (calendar)     did-navigate set zoom factor to 1
+[2025-09-05 14:00:51.637] [info]  (preload)      Sending message: storeAppVersion
+[2025-09-05 14:00:51.641] [info]  (utils)        Application loaded: proton-account@5.0.284.0
+[2025-09-05 14:00:51.644] [debug] (utils)        Current versions are: 1.9.0 (M 5.0.78.7 / A 5.0.284.0 / C 5.0.63.6)
+[2025-09-05 14:00:51.675] [info]  (preload)      Sending message: setTheme
+[2025-09-05 14:00:51.771] [info]  (preload)      Sending message: setTheme
+[2025-09-05 14:00:51.782] [info]  (preload)      Sending message: storeAppVersion
+[2025-09-05 14:00:51.785] [info]  (utils)        Application loaded: proton-mail@5.0.78.7
+[2025-09-05 14:00:51.787] [debug] (utils)        Current versions are: 1.9.0 (M 5.0.78.7 / A 5.0.284.0 / C 5.0.63.6)
+[2025-09-05 14:00:52.541] [info]  (calendar)     will-navigate https://calendar.proton.me/login#selector=dsjb653biyzfdcr4ic5ttvchclglj7t2&state=-y--nrqDvdQ6qE8o-bC2cR1pxAPB3d-KYSybrvvO9tM&sk=2YMJ5CbYzjdELkC2tX3tnzzq8pEioclElkqxW_mDCHk&v=2&p=1&tr=1&pv=1&pt=default&source=0
+[2025-09-05 14:00:52.600] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/1/
+[2025-09-05 14:00:52.602] [info]  (main)         Rewriting URL to include local id https://calendar.proton.me/u/1/
+[2025-09-05 14:00:52.603] [info]  (calendar)     reset to home page https://calendar.proton.me/u/1/
+[2025-09-05 14:00:52.605] [info]  (calendar)     loadURL from https://account.proton.me/__FORBIDDEN__?app=proton-calendar&state=-y--nrqDvdQ6qE8o-bC2cR1pxAPB3d-KYSybrvvO9tM&v=2&u=1&reason=session-expired to https://calendar.proton.me/u/1/
+[2025-09-05 14:00:52.607] [info]  (account)      reset to blank
+[2025-09-05 14:00:52.632] [info]  (account)      did-navigate file:///opt/proton-mail/resources/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%237A6E80&backgroundColor=%2316141c
+[2025-09-05 14:00:52.678] [verbose] (view)         updating view bounds {"x":0,"y":0,"width":1268,"height":673}
+[2025-09-05 14:00:52.883] [info]  (calendar)     did-navigate https://calendar.proton.me/u/1/
+[2025-09-05 14:00:52.885] [debug] (calendar)     did-navigate set zoom factor to 1
+[2025-09-05 14:00:53.049] [debug] (calendar)     did-finish-load https://calendar.proton.me/u/1/
+[2025-09-05 14:00:53.079] [info]  (preload)      Sending message: setTheme
+[2025-09-05 14:00:53.086] [info]  (preload)      Sending message: storeAppVersion
+[2025-09-05 14:00:53.090] [info]  (utils)        Application loaded: proton-calendar@5.0.63.6
+[2025-09-05 14:00:53.092] [debug] (utils)        Current versions are: 1.9.0 (M 5.0.78.7 / A 5.0.284.0 / C 5.0.63.6)
+[2025-09-05 14:00:53.101] [info]  (calendar)     will-navigate https://account.proton.me/__FORBIDDEN__?app=proton-calendar&state=I1nNW0xWAzPp6SUyvNhaaNuRidKH_pTB-nGspSzWPKw&v=2&u=1&reason=session-expired
+[2025-09-05 14:00:53.519] [info]  (calendar)     did-navigate https://account.proton.me/__FORBIDDEN__?app=proton-calendar&state=I1nNW0xWAzPp6SUyvNhaaNuRidKH_pTB-nGspSzWPKw&v=2&u=1&reason=session-expired
+[2025-09-05 14:00:53.524] [debug] (calendar)     did-navigate set zoom factor to 1
+[2025-09-05 14:00:53.619] [info]  (preload)      Sending message: storeAppVersion
+[2025-09-05 14:00:53.623] [info]  (utils)        Application loaded: proton-account@5.0.284.0
+[2025-09-05 14:00:53.626] [debug] (utils)        Current versions are: 1.9.0 (M 5.0.78.7 / A 5.0.284.0 / C 5.0.63.6)
+[2025-09-05 14:00:53.664] [info]  (preload)      Sending message: setTheme
+[2025-09-05 14:00:53.989] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:00:53.993] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:00:53.995] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:00:53.998] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:00:54.000] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:00:54.002] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:00:54.005] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:00:54.008] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:00:54.026] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:00:54.030] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:00:54.034] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/1/inbox
+[2025-09-05 14:00:54.037] [info]  (main)         Rewriting URL to include local id https://calendar.proton.me/u/1/
+[2025-09-05 14:00:54.039] [info]  (calendar)     reset to home page https://calendar.proton.me/u/1/
+[2025-09-05 14:00:54.041] [info]  (calendar)     loadURL from https://account.proton.me/__FORBIDDEN__?app=proton-calendar&state=I1nNW0xWAzPp6SUyvNhaaNuRidKH_pTB-nGspSzWPKw&v=2&u=1&reason=session-expired to https://calendar.proton.me/u/1/
+[2025-09-05 14:00:54.044] [info]  (account)      reset to blank
+[2025-09-05 14:00:54.048] [info]  (preload)      Sending message: updateNotification
+[2025-09-05 14:00:54.054] [info]  (ipc)          Update badge value 0
+[2025-09-05 14:00:54.056] [info]  (ipc)          Reset badge value
+[2025-09-05 14:00:54.073] [info]  (account)      did-navigate file:///opt/proton-mail/resources/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%237A6E80&backgroundColor=%2316141c
+[2025-09-05 14:00:54.112] [verbose] (view)         updating view bounds {"x":0,"y":0,"width":1268,"height":673}
+[2025-09-05 14:00:54.123] [info]  (preload)      Sending message: checkDailyStatsAndSignal
+[2025-09-05 14:00:54.125] [debug] (protocol)     Checking default mailto
+[2025-09-05 14:00:54.222] [info]  (protocol)     App default mailto client status {
+  isDefault: false,
+  wasChecked: true,
+  shouldBeDefault: true,
+  wasDefaultInPast: false,
+  canUpdateDefault: true,
+  lastReport: { wasDefault: false, timestamp: 0 }
+}
+[2025-09-05 14:00:54.232] [info]  (preload)      Sending message: metricsListenerChanged
+[2025-09-05 14:00:54.236] [debug] (main)         Metrics listener ready
+[2025-09-05 14:00:54.315] [info]  (calendar)     did-navigate https://calendar.proton.me/u/1/
+[2025-09-05 14:00:54.318] [debug] (calendar)     did-navigate set zoom factor to 1
+[2025-09-05 14:00:54.412] [debug] (calendar)     did-finish-load https://calendar.proton.me/u/1/
+[2025-09-05 14:00:54.432] [info]  (preload)      Sending message: setTheme
+[2025-09-05 14:00:54.439] [info]  (preload)      Sending message: storeAppVersion
+[2025-09-05 14:00:54.442] [info]  (utils)        Application loaded: proton-calendar@5.0.63.6
+[2025-09-05 14:00:54.444] [debug] (utils)        Current versions are: 1.9.0 (M 5.0.78.7 / A 5.0.284.0 / C 5.0.63.6)
+[2025-09-05 14:00:54.452] [info]  (calendar)     will-navigate https://account.proton.me/__FORBIDDEN__?app=proton-calendar&state=gdXyRgvy8nwC7c_rp02bqeXNG3_tt6Q3G6E_j4mK-a8&v=2&u=1&reason=session-expired
+[2025-09-05 14:00:54.922] [info]  (calendar)     did-navigate https://account.proton.me/__FORBIDDEN__?app=proton-calendar&state=gdXyRgvy8nwC7c_rp02bqeXNG3_tt6Q3G6E_j4mK-a8&v=2&u=1&reason=session-expired
+[2025-09-05 14:00:54.928] [debug] (calendar)     did-navigate set zoom factor to 1
+[2025-09-05 14:00:55.051] [info]  (preload)      Sending message: storeAppVersion
+[2025-09-05 14:00:55.055] [info]  (utils)        Application loaded: proton-account@5.0.284.0
+[2025-09-05 14:00:55.057] [debug] (utils)        Current versions are: 1.9.0 (M 5.0.78.7 / A 5.0.284.0 / C 5.0.63.6)
+[2025-09-05 14:00:55.099] [info]  (preload)      Sending message: setTheme
+[2025-09-05 14:00:55.171] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:00:55.176] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:00:55.268] [info]  (preload)      Sending message: dailyStatsReported
+[2025-09-05 14:00:55.562] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:00:55.565] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:00:55.568] [info]  (preload)      Sending message: toggleAppCache
+[2025-09-05 14:00:55.911] [info]  (calendar)     will-navigate https://calendar.proton.me/login#selector=lqsv4qym7lvyvo7ebfrvaiqp3jpnfwlf&state=gdXyRgvy8nwC7c_rp02bqeXNG3_tt6Q3G6E_j4mK-a8&sk=vKhnIUMgBg1XEZyYn5ybO56r8QrpDywmIBRCa1ejFWs&v=2&p=1&tr=1&pv=1&pt=default&source=0
+[2025-09-05 14:00:56.074] [info]  (preload)      Sending message: updateNotification
+[2025-09-05 14:00:56.078] [info]  (ipc)          Update badge value 1
+[2025-09-05 14:00:56.173] [info]  (calendar)     did-navigate https://calendar.proton.me/login#selector=lqsv4qym7lvyvo7ebfrvaiqp3jpnfwlf&state=gdXyRgvy8nwC7c_rp02bqeXNG3_tt6Q3G6E_j4mK-a8&sk=vKhnIUMgBg1XEZyYn5ybO56r8QrpDywmIBRCa1ejFWs&v=2&p=1&tr=1&pv=1&pt=default&source=0
+[2025-09-05 14:00:56.176] [debug] (calendar)     did-navigate set zoom factor to 1
+[2025-09-05 14:00:56.314] [info]  (preload)      Sending message: setTheme
+[2025-09-05 14:00:56.321] [info]  (preload)      Sending message: storeAppVersion
+[2025-09-05 14:00:56.325] [info]  (utils)        Application loaded: proton-calendar@5.0.63.6
+[2025-09-05 14:00:56.328] [debug] (utils)        Current versions are: 1.9.0 (M 5.0.78.7 / A 5.0.284.0 / C 5.0.63.6)
+[2025-09-05 14:00:57.180] [debug] (main)         request-load-time average: 208ms deviation: 295ms max: 1148ms count: 65
+[2025-09-05 14:00:58.073] [info]  (calendar)     did-navigate-in-page https://calendar.proton.me/u/1/
+[2025-09-05 14:01:02.376] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:01:02.379] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:01:02.382] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:01:02.385] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:01:02.656] [info]  (preload)      Sending message: earlyAccess
+[2025-09-05 14:01:02.659] [info]  (settings)     Updating release category undefined
+[2025-09-05 14:01:06.362] [info]  (main)         close, window not visible on Windows or Linux
+[2025-09-05 14:01:06.367] [info]  (main)         All windows closed

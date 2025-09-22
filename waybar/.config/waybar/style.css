@@ -1,0 +1,140 @@
+/* fragile file path */
+@import url("../../.cache/hellwal/waybar-colors.css");
+
+/* Use Pywal16 colors  */
+@define-color fg alpha(@background, 1.0);
+@define-color bg alpha(@foreground, 1.0);
+@define-color bordercolor alpha(@background, 1.0);
+@define-color alert #F14241;
+@define-color disabled #A5A5A5;
+@define-color highlight #D49621;
+@define-color activegreen #26A65B;
+@define-color gray #808080;
+
+* {
+  font-family: "SF Pro Text", "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1rem; /* Adjust font using gtk-font size, like nwg-look or lxappearance */
+  border-radius: 10px;
+}
+
+window#waybar {
+  color: #ffffff;
+  background-color: transparent;
+  transition-property: background-color;
+  transition-duration: .5s;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+button {
+  box-shadow: inset 0 -3px transparent;
+  border: none;
+  border-radius: 0;
+}
+
+button:hover {
+  background: inherit;
+  box-shadow: inset 0 -3px #ffffff;
+}
+
+#pulseaudio:hover {
+  background-color: @color5;
+}
+
+#workspaces button {
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+  padding: 0 5px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+#workspaces button:hover {
+  background: @color5;
+  box-shadow: inset 0 -3px #ffffff;
+}
+
+#workspaces button.focused {
+  background-color: #64727D;
+  box-shadow: inset 0 -3px #e8eaed;
+}
+
+#workspaces button.urgent {
+  background-color: #eb4d4b;
+}
+
+#workspaces button.active {
+  background-color: #e8eaed;
+  color: #323d49;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiels-daemon,
+#mpd {
+  padding: 0 15px;
+  color: #ffffff;
+  margin: 0 6px;
+}
+
+#window,
+#workspaces {
+  margin: 0 4px;
+}
+
+.modules-left > widget:first-child > #workspaces {
+  margin-left: 0;
+}
+
+.modules-right > widget:last-child > #workspaces {
+  margin-right: 0;
+}
+
+
+#clock {
+  background-color: @color4;
+}
+
+#battery {
+  background-color: @color4;
+}
+
+#tray {
+  background-color: @color4;
+}
+
+#power-profiles-daemon {
+  padding: 5px;
+  background-color: @color4;
+}
+
+#pulseaudio {
+  background-color: @color4;
+}
+
+#memory {
+ background-color: @color4; 
+}
+
+#cpu {
+ background-color: @color4; 
+}
+
+#workspaces {
+ background-color: @color4; 
+}

@@ -1,0 +1,2051 @@
+{
+    "DesktopAudioDevice1": {
+        "prev_ver": 520159234,
+        "name": "Desktop Audio",
+        "uuid": "3b93b464-cd7f-4763-9b7e-56e0c706564c",
+        "id": "pulse_output_capture",
+        "versioned_id": "pulse_output_capture",
+        "settings": {
+            "device_id": "default"
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 1.0,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": false,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.unmute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": []
+        },
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {}
+    },
+    "AuxAudioDevice1": {
+        "prev_ver": 520159234,
+        "name": "Mic/Aux",
+        "uuid": "69690d51-5af6-4217-8a04-3c02d41e83f2",
+        "id": "pulse_input_capture",
+        "versioned_id": "pulse_input_capture",
+        "settings": {
+            "device_id": "alsa_input.usb-0c76_USB_Condenser_Microphone-00.mono-fallback"
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 1.0,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": false,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.unmute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": []
+        },
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {}
+    },
+    "current_scene": "Scene",
+    "current_program_scene": "Scene",
+    "scene_order": [
+        {
+            "name": "Scene"
+        },
+        {
+            "name": "Scene 3"
+        },
+        {
+            "name": "Scene 2"
+        }
+    ],
+    "name": "Untitled",
+    "sources": [
+        {
+            "prev_ver": 520159234,
+            "name": "Scene",
+            "uuid": "d996c515-2f75-4a43-b08b-991a616a9227",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 3,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Screen Capture (PipeWire)",
+                        "source_uuid": "6fc84088-fda4-4008-81c9-b58f1f8ac74d",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_1"
+                    }
+                ],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Screen Capture (PipeWire)",
+            "uuid": "6fc84088-fda4-4008-81c9-b58f1f8ac74d",
+            "id": "pipewire-screen-capture-source",
+            "versioned_id": "pipewire-screen-capture-source",
+            "settings": {
+                "RestoreToken": ""
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Scene 2",
+            "uuid": "148a1c51-3882-4321-8985-7690aef11b7f",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Screen Capture (PipeWire) 2",
+                        "source_uuid": "f4983dce-29fd-4bc9-a569-1f0db6bd4b9c",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.4062957763671875,
+                            "y": 1.40625
+                        },
+                        "scale_rel": {
+                            "x": 1.4062957763671875,
+                            "y": 1.40625
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_2"
+                    }
+                ],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Screen Capture (PipeWire) 2",
+            "uuid": "f4983dce-29fd-4bc9-a569-1f0db6bd4b9c",
+            "id": "pipewire-screen-capture-source",
+            "versioned_id": "pipewire-screen-capture-source",
+            "settings": {
+                "RestoreToken": ""
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Scene 3",
+            "uuid": "caf53363-862b-496b-8ec4-ed9f987987fd",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Image Slide Show 2",
+                        "source_uuid": "3cd442e6-37fa-4587-9e37-2445ae812b59",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": -71.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.9092592000961304,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0369791984558105,
+                            "y": 1.0370370149612427
+                        },
+                        "scale_rel": {
+                            "x": 1.0369791984558105,
+                            "y": 1.0370370149612427
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_3"
+                    }
+                ],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Image Slide Show 2",
+            "uuid": "3cd442e6-37fa-4587-9e37-2445ae812b59",
+            "id": "slideshow",
+            "versioned_id": "slideshow_v2",
+            "settings": {
+                "files": [
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0oui0mtf451a1.png",
+                        "uuid": "376d5e8f-c5f5-452a-b810-1373fdf51794",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/2 - DEl93OU.png",
+                        "uuid": "47917c3f-99db-42e6-b0a8-a5f0d7368315",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/02-girl-shibe.png",
+                        "uuid": "72286b37-65b1-4e6e-b368-e175ddc34a91",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/2paggfqi38aa1.png",
+                        "uuid": "4849b492-7fe1-4d6b-8072-3488be8df1c6",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/3naa2boj9rd81.png",
+                        "uuid": "1585b84e-bf5b-4081-bee9-ce80a0646559",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/4lge2mhk38aa1.png",
+                        "uuid": "765a582b-02fc-487c-82e7-f180b73a9b05",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/4X3z4Ha.jpeg",
+                        "uuid": "e0c7578e-6c42-4553-bc21-ec6858637f75",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/5f30927cf67b7c72.jpeg",
+                        "uuid": "21e1212e-4a3b-4c32-8490-59096939c25b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/6b8af5b0d3190ba5816bef3051d1bb91.png",
+                        "uuid": "20a8d8a1-22e3-45e8-b0af-7f3ec9ab286c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/6iJX5AY.jpeg",
+                        "uuid": "5287da82-ea5a-4b89-b0f1-0042566f736a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/8oISuba.jpeg",
+                        "uuid": "6c861df0-64b4-48ad-8866-19008ee391c7",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0010_paper-city-minimal-art.png",
+                        "uuid": "cda6e001-46a2-46c5-8340-e314a87dd2b1",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/13 - HRS9jnT.png",
+                        "uuid": "66922334-ca2a-457a-b010-787909f6981e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0014_lofi-cat-chill-sleep.png",
+                        "uuid": "2a7bf65b-b879-48dd-8809-2cb063e7ee82",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0020_rocket-launch-minimalist.png",
+                        "uuid": "9cd79a48-5404-4699-af14-657d147ef967",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0030_minimalist-man-cherry-blossom.png",
+                        "uuid": "cf8783b3-6732-4fdd-b864-4d6420712aab",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0042_fantasy-mountain-night-city.png",
+                        "uuid": "35302114-fb2f-43cf-9c89-9a59aedb8268",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/59 - Po7I8eZ.png",
+                        "uuid": "597ad4a2-cbd0-42ff-9179-93d58ee2858d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/59og5ec1qxg81.png",
+                        "uuid": "4efec66e-6f51-4981-9c75-5f13a1445923",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0068_desktop-vintage-technology-sunrays.png",
+                        "uuid": "4cbd852f-dbcd-48ca-9adb-0e525bc067e7",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0071_vibrant-city.png",
+                        "uuid": "0789019b-0c3a-4916-a924-0ca67583b328",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/89KhjAB.jpeg",
+                        "uuid": "87f77d20-e6f8-42ab-9d5c-f00892b7b063",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0091_crash-bluescreen-joke.png",
+                        "uuid": "82b06a6e-2188-4b09-8cee-28643b1b1489",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0100_electric-pokemon-minimalist.png",
+                        "uuid": "9dbfe284-1fe5-41a2-8553-3fc77e2ec457",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0103_fantasy-landscape.png",
+                        "uuid": "885bb6ed-e95b-40a9-828f-334eee80c959",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0104_girl-chill-headphones-street.png",
+                        "uuid": "6df1e23d-9eea-424d-82a3-e9835cb5bac3",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0110_future-game-nomansky.png",
+                        "uuid": "f659d9db-df1e-4594-96f3-a676446c4a19",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0114_sepia-street.png",
+                        "uuid": "04608afd-3fbd-46c0-a4c8-455fbd6eb7d9",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0123_ismail-inceoglu-chaos-invoked.png",
+                        "uuid": "2575c560-1575-420e-8c59-3c47b76c702c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0127_girl-rain-koba-sewer.png",
+                        "uuid": "e58c8ae9-dd36-4dfc-a82f-8ac875eda850",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0191_one-piece-sunny-light.png",
+                        "uuid": "b2fc5ebf-593b-4f9c-a907-0fcf07bcd1bd",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0192_moon-samurai-mountains.png",
+                        "uuid": "74366d76-df13-4c74-a1cd-54ec553b010e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0195_electronics-sheet.png",
+                        "uuid": "36a59f0d-d878-4a87-b30c-90715ced473d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0197_girl-balcony-red-balloons.png",
+                        "uuid": "62b20cc7-9eeb-4592-a3f4-aa50a631cd07",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0212_luffy-young-alabasta.png",
+                        "uuid": "c066302c-d216-40d1-8d2b-8dde4c57303d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0213_cloudy-evening-girl-rooftop.png",
+                        "uuid": "688645cf-4d01-40e8-b66b-e9298571aac3",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0218_trees-prince-sunset-breeze.png",
+                        "uuid": "23e2b0ab-abba-4e55-8ed7-cc603e8c9c2b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0236_girl-cat-grass-uniform.png",
+                        "uuid": "a9e973ab-4830-4a97-acec-d7fe277b9fd7",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0260_minimalist-pixelart-city-night.png",
+                        "uuid": "720474d6-9a4c-4a7c-b348-eae656dcbe2e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0288_alena_aenami-budapest-bridge-river.jpeg",
+                        "uuid": "a18b0bfc-24fd-4928-8798-6b5b0d256af7",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0292_anime-cloud-sky-room.png",
+                        "uuid": "b5e68baf-9507-4e13-8a6b-41c587ceeac1",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0311_anime-desk-radio-plants.png",
+                        "uuid": "b4b4002e-34c7-4855-a61b-dd29cb70a7ac",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0331_anime-girl-puddle-mirror.png",
+                        "uuid": "d8c2a535-d1db-4d3a-8134-f978aff81c86",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0335_anime-girl-snow-abandonned.png",
+                        "uuid": "4d60d21b-1365-4f42-9dc1-90e20ae23dd7",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0339_anime-girl-train-night.png",
+                        "uuid": "97326af5-e86c-4936-a64f-da88db273162",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0343_anime-girl-wolf-rain.png",
+                        "uuid": "88458d33-608b-4f01-8574-64babb3fbf31",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0346_anime-river-leaf-man.png",
+                        "uuid": "41649fdc-d26c-4822-a5d3-3fff640d9f89",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0357_girl-shadow-sunrise-crane.png",
+                        "uuid": "95a16637-28cb-4d12-98a5-19402f7692f8",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0368_panda-samurai-blossom-temple.png",
+                        "uuid": "1e1be479-dfd4-4cb3-a679-189054d467cb",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0371_pokemon-evolution-ghosts-purple.png",
+                        "uuid": "fa4e2b26-ca69-4568-985c-80e26cad7124",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/376 - kgcycPs.png",
+                        "uuid": "0069af25-3d1f-465f-b7ed-d829092442bc",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/0377_windows-pepe-neon-blue.png",
+                        "uuid": "57bc67ea-d868-4fe8-80da-76824cc39a94",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/36592_serial_experiments_lain.png",
+                        "uuid": "53157c98-4764-4b15-87b8-b089746d65c7",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/736461.png",
+                        "uuid": "75a6d83f-59c7-40ca-8313-4c57b7b0cd43",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/1291412.png",
+                        "uuid": "ca093602-d4b4-4d7d-812a-12e92c798362",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/20210817_004904.png",
+                        "uuid": "7c589a15-6666-4b28-a166-e527fb67a30c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/1685623026334610.png",
+                        "uuid": "7454d336-fc80-4526-9aaa-75b100ab1dac",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/a_cartoon_of_a_house_on_a_cliff.png",
+                        "uuid": "9405cb4e-d55c-475d-83a1-e9f0dfc2ecef",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/a-nice-sunrise.png",
+                        "uuid": "4d8302e0-90c7-400e-9464-e81b92efab98",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/after_school_stroll_gruvbox.png",
+                        "uuid": "6c048d67-9bf0-4ebe-a1b6-f8d2c854eb12",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/anime-anime-girls-original-characters-short-hair-wallpaper-9e621b77801cfc9def497dfeb6dafe8e.jpg",
+                        "uuid": "4b2a1f53-6078-492a-ba2d-7c5f3aa4a007",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/anime-classroom-window-scenery-4k-wallpaper-uhdpaper.com-648@2@b.jpg",
+                        "uuid": "cbb1c94a-1558-4aeb-9086-114f3059152c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/anime-girl-sailor-hat.png",
+                        "uuid": "aae5fdf2-39dd-42a1-867b-e091b25a91da",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/anime-girl-torii gate-4k-wallpaper-uhdpaper.com-734@2@b.jpg",
+                        "uuid": "19bbf78e-3086-4ffe-abdb-76a22921387a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/anime-ice-cube-sky-sunset-scenery-art-4k-wallpaper-uhdpaper.com-655@2@b.jpg",
+                        "uuid": "357da841-b965-49d9-a472-0253cdc05640",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/Anime-sky-girl.png",
+                        "uuid": "b7158803-c4cc-4943-8911-eac56fed2b2c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/anime-water.png",
+                        "uuid": "2cee7325-2bb3-4022-8897-30a5b1b7b73c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/AnimeGirlSunset.png",
+                        "uuid": "d9bd0eb2-90ee-4386-a71b-0df263a5e4e1",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/art-lake.png",
+                        "uuid": "e22bd1cb-29c6-440e-907b-1e01eff7f848",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/astro.png",
+                        "uuid": "3e901419-8609-47dc-98c1-c903c6b529b8",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/astronaut-nord.png",
+                        "uuid": "13cf9f91-d70e-428b-a5b6-7835aeb683b4",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/aTzsemi.jpeg",
+                        "uuid": "8769515a-18d5-4b28-9711-ff889d6a2828",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/bici.png",
+                        "uuid": "30606573-f0ab-4176-a894-c9afdfdc6849",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/bsd1.png",
+                        "uuid": "8dcbe3bc-0d59-48b6-a904-c995c30d4493",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/bubble_in_rain.png",
+                        "uuid": "7f15a541-e827-455c-bbb3-55bdd51869f9",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/buildings.png",
+                        "uuid": "66746aba-e2bc-4ddb-8386-d4897d946a41",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/caidychen-original-characters-anime-girls-short-hair-wallpaper-c9d0080df10a0dbb260778bf2011c66d.jpg",
+                        "uuid": "53fc3528-f925-49ed-a42d-1b06046ba161",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/caJoiwr.jpeg",
+                        "uuid": "218f4879-bc7d-4128-9b7a-6c9272c58a7a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/cat_cycle.png",
+                        "uuid": "6d0d8104-c1d0-461f-a170-8c22a095159e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/cat_lofi_cafe.png",
+                        "uuid": "a5f00c7c-9982-4e28-8da8-746aee3d4a3a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/cat_nord_tree.png",
+                        "uuid": "3aaddcc6-2d05-46cf-9574-825c065200d4",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/cat_sleeping.png",
+                        "uuid": "e44f269d-990f-4225-a925-85eca7fa73c7",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/cat-anime.png",
+                        "uuid": "546db886-bb88-4a73-80b7-cd618b792009",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/cat.png",
+                        "uuid": "815c1fcd-07b4-4d26-bb99-bfca6e4ec7f0",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/catpuccin_samurai.png",
+                        "uuid": "7ef24614-bdfc-40eb-8149-4814bc76e28a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/cloudy_shine.jpeg",
+                        "uuid": "869c7385-9f83-42b4-a56f-444dd09499b0",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/cozy_bridge.png",
+                        "uuid": "8efe50b3-272d-497a-ad7f-424cfd5ba48f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/cozy_street.png",
+                        "uuid": "4a785e11-2fcc-482f-9a71-04bcffb6f87c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/dark_pixelart.png",
+                        "uuid": "472a2847-0f42-480d-9293-288f9f1efbf3",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/dedsec_hacked.png",
+                        "uuid": "d44c9696-f65a-4247-939a-fb97b6037439",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/ds4_purple.png",
+                        "uuid": "f6abac2b-d397-408d-ac2e-06af80386b44",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/earth.png",
+                        "uuid": "521d8813-3a4a-4339-80b5-5d91907ed57f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/erwan-hesry-1bnBaJ3iBTg-unsplash.png",
+                        "uuid": "e826970d-33ea-4344-bdce-6ef9e126d50e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/Eves MV.png",
+                        "uuid": "a1645c48-20f5-4a24-adcd-14951c97d25c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/firewatch_purple.png",
+                        "uuid": "4c219269-45b1-4bce-9e0a-0855987823af",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/forest_dark_winter.png",
+                        "uuid": "f9c59d29-e6d6-4c98-9cce-839783788bd7",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/forest_moonset.png",
+                        "uuid": "b57f1d74-6283-49fa-91ea-16e0ea18016c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/forest-bridge.png",
+                        "uuid": "1f0dbb0e-e26a-482d-957f-67aa9b383fa5",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/forest-girl.png",
+                        "uuid": "1fe567d9-3607-43f0-a0a0-aa9ffd4e725a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/forest-sunset.png",
+                        "uuid": "84163b8e-90ca-4991-a2b7-f22dd91a92cb",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/girl.png",
+                        "uuid": "3cd6f56c-738a-40d2-b163-3673592b5c66",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/goofyplants.png",
+                        "uuid": "bd3df31c-8b2d-4ca4-8a5d-5802f23f14cc",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/grand_tour_main_arch.png",
+                        "uuid": "1ba2b26e-1fae-43fb-943e-13bc7df7e3ff",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/grey_skull.png",
+                        "uuid": "ebb322dd-62c4-40d5-8ad5-4a29c2b867b0",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/grub-coffee.png",
+                        "uuid": "2a437e4c-7227-4b5e-a155-57ab20249244",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/gruv-room-2.png",
+                        "uuid": "9051d490-7457-4e17-9f44-19448d733667",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/Gruvbox_2.png",
+                        "uuid": "a37631e8-b81a-4eeb-9bca-726f8cb6131d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/gruvbox_785868_1.png",
+                        "uuid": "6134b29b-1a00-467d-9203-be259b7d2575",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/gruvbox_785868.png",
+                        "uuid": "0fd0dcd5-338b-4f4a-9445-39e433eece52",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/gruvbox_cool-robo-station.png",
+                        "uuid": "64c852fa-b2a4-4ca0-af8d-386205659e0e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/gruvbox_image4.png",
+                        "uuid": "a98c880e-e62f-4294-a52e-7f37dbaddc45",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/gruvbox_retrocity.png",
+                        "uuid": "a7f96dab-92bc-44e0-bf1a-01965c52b5ab",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/gruvbox_room.png",
+                        "uuid": "a99a047d-280b-4b53-bbf7-abfe7ee180f2",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/Gruvbox_Solar_system.png",
+                        "uuid": "ccf964f8-d95f-4ce0-9e3f-d3219ecc7e5b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/guts-and-sky.png",
+                        "uuid": "273a6fce-8ea1-40d2-838a-cefa9aaf1c3e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/HEROSCREEN270524A.png",
+                        "uuid": "caf4747a-6077-4385-8386-1be50cc419bc",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/houses.png",
+                        "uuid": "723085b9-2e75-4306-b164-b7fd7358bb92",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/hyprland_kitty.png",
+                        "uuid": "bbd71043-c051-4fad-80c4-08bb504319b5",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/ign_circuit.png",
+                        "uuid": "2e50ea98-6870-4395-8d7c-2d1281d813f0",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/ign_driving.png",
+                        "uuid": "cee86820-f918-4ddb-b258-68df1b7ff170",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/ign_dudeOnBuilding3.png",
+                        "uuid": "3194066e-ac4f-4e6e-b976-662cdce2840e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/ign_waifu.png",
+                        "uuid": "c6e38f9a-a4a9-4fd5-b0ee-cf2a4818016f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/ign-0001.png",
+                        "uuid": "4b7a0d87-7f04-4e2b-a317-c005875dc162",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/image5.png",
+                        "uuid": "791686cd-435e-4d05-904f-278fb7ae5181",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/image17.png",
+                        "uuid": "72c31d9a-5ad6-4221-b1f1-9ef78de19d88",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/image25.png",
+                        "uuid": "47bd1853-e936-4f66-9dcf-057ae7ffd018",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/image28.png",
+                        "uuid": "ec760a43-c0b4-434f-88c5-5ea54df2c896",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/image29.png",
+                        "uuid": "c922f06c-95cf-4a2c-a27d-4bffe1032710",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/image44.png",
+                        "uuid": "f6cd739f-134c-4975-8e65-0bebe0e4c474",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/image45.png",
+                        "uuid": "9894e345-f9ce-4d98-87d8-63e5278685f7",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/image46.png",
+                        "uuid": "29aeee1f-10d1-4cb8-9713-59846b1a47c7",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/image47.png",
+                        "uuid": "1ff2e8dc-eadc-46d5-9e6b-dfecdc2a34c9",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/image48.png",
+                        "uuid": "bf9f3890-deb4-46bf-bda0-9a7fdad06970",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/image53.png",
+                        "uuid": "f10e940e-51c4-4a27-8cda-dbc4384afeb6",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/imageedit_2_4964105753.png",
+                        "uuid": "624dcc0c-a384-4eda-bb36-939ed672fea8",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/inspect.png",
+                        "uuid": "d5547094-14da-4401-b6cf-ada8b6ece28f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/itdo8g9346161.png",
+                        "uuid": "8f01ffc3-5065-4bd8-bfdd-383b82c343ad",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/japan_anime_city.png",
+                        "uuid": "7852917f-afde-47f3-96d3-842740f97b31",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/japan_torii.png",
+                        "uuid": "f0f5dd08-dac0-452d-be4c-3fc1c2c0b48d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/japanese-house.png",
+                        "uuid": "d6fbf631-f9e4-436d-be0a-d94ed487d1af",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/kitty.png",
+                        "uuid": "4b30c36b-649b-4b77-92a4-fc26b14e0639",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/kittyboard.png",
+                        "uuid": "22bf195b-7801-476e-ba58-d0af1a7c2241",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/lake.png",
+                        "uuid": "0c15828f-feb8-4e57-9a79-2c523827972a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/leave-planet.png",
+                        "uuid": "48a577bb-aaf1-4093-9f08-1da264daa94d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/literal-wallpaper.png",
+                        "uuid": "03f1a90f-aca4-4a6e-97f4-ce51bb427521",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/lofi_cat.png",
+                        "uuid": "8a05feed-7c29-4ea8-8eb5-d5f1e413ac33",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/low-poly-fantasy-village.png",
+                        "uuid": "66dc00bd-5277-432d-a8f5-8d2af53fe66c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/minimal-15.png",
+                        "uuid": "15d867ad-a833-4ee3-9ac7-bbbe94afcdb6",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/minimal-22-nordified.png",
+                        "uuid": "18aea5bb-332f-49e1-8294-fff2fd126fd3",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/mm7prhmrq3681.png",
+                        "uuid": "b66364a5-ace9-4151-ab73-442648b3ee6d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/monochrome-eye-character.png",
+                        "uuid": "4cde9e85-4626-43a4-9a4a-8a0b62e2127b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/Neon_House.png",
+                        "uuid": "293568c3-b97f-48a6-95a3-84e67ddf00cb",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/nord_alone_tree.png",
+                        "uuid": "80542485-f2b6-44cb-ad32-32aa1b805041",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/nord_bridge.png",
+                        "uuid": "d48b3664-6200-42a2-a54d-5ceb826541ba",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/nord_minimal_cat.png",
+                        "uuid": "299711f7-4ad1-4a12-ac1f-1e521f5095bc",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/nord_scenary.png",
+                        "uuid": "5aa3f6f0-603b-492b-bf8d-5f11425972c4",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/nord_valley.png",
+                        "uuid": "1f370def-c3e7-4da5-b6bf-dc0bb719005e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/Nordic-Heroin.png",
+                        "uuid": "ba9127f2-fbd5-4ce7-96f8-e3043ebe2771",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/od_balloons.png",
+                        "uuid": "b2a21f70-deca-48c3-9ab9-a669e61af93e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/od_botw_saddled.png",
+                        "uuid": "bd9b7256-3d02-4759-9b52-c5a652268949",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/od_botw.png",
+                        "uuid": "f58b004f-5b9f-41ac-96b7-d6aba3a3deb0",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/od_fsociety.png",
+                        "uuid": "45e30afa-ffdb-4976-821f-7162413e543a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/od_new.png",
+                        "uuid": "8b304ef7-2c97-464c-8625-67fc5d874dfe",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/od_outrun_wave.png",
+                        "uuid": "dedd254f-d4f9-46a4-82f5-56891a727873",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/od_pacman_arcade.png",
+                        "uuid": "5bba38a8-2ea0-4770-b249-af0e7ef44376",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/od_qr.png",
+                        "uuid": "bab704d9-e3fd-4df9-9540-3bc967f81cc7",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/od_revan.png",
+                        "uuid": "323cb0fe-b189-45b7-aefe-77080659f7e4",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/od_rpi.png",
+                        "uuid": "af29e3f4-e779-4349-a226-8732bdbfeeb9",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/od_sysd.png",
+                        "uuid": "c082488d-2e05-4bb6-84c1-9b2b91d2529d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/od_wallhaven-m9od1k.png",
+                        "uuid": "85f51beb-2923-4c0d-9a2e-775dc2b9b761",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/odysee.png",
+                        "uuid": "fc3b5d91-05e5-4703-a01f-4cc072f07633",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/onepiece.png",
+                        "uuid": "64b83582-e59c-4329-808c-815da73ec06b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/orange-planets.png",
+                        "uuid": "e3f89617-fead-42f5-9f86-f03fe999105e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/paint.png",
+                        "uuid": "1025b091-6e68-403e-9a8e-f3a557067add",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/pokemon-pixel-4k.png",
+                        "uuid": "4cac1c73-da67-4522-ac19-d8c76afae665",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/python-minim.png",
+                        "uuid": "6c77a2f9-6074-4cbe-880a-a56bff3a043e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/RDT_20230315.png",
+                        "uuid": "e8e05ff4-7d97-4c75-bba8-b39f5bde9024",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/redsaved1.png",
+                        "uuid": "47b90adc-917d-430c-90cb-53836face525",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/retro-pc.png",
+                        "uuid": "b5ac593f-7a38-4fc5-af38-ad3dc2827d14",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/samurai_doge.png",
+                        "uuid": "0e1bef0a-b576-4308-ab5b-a869d82b66b4",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/Ship_sunset.png",
+                        "uuid": "daa67bbf-dca1-4da1-b6b9-b15e05b9c938",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/sipnpt3446161.png",
+                        "uuid": "8f02ac10-937b-4e89-83ac-552f793a2349",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/skull-gruv.png",
+                        "uuid": "31f5bb5a-395f-4c5d-8dcb-d085611b58b6",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/spooky_spill.png",
+                        "uuid": "716cdb33-9a5c-4261-bdca-f922337d0e07",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/street_dusk.png",
+                        "uuid": "78b49a78-a086-48da-9909-4d9e77acb57c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/sukunafhd.jpg",
+                        "uuid": "b9fa25f3-3544-4ff1-acb0-260834105e70",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/Sunset_Dracula_theme.png",
+                        "uuid": "b99b828b-8845-442a-b62b-ca776091abe8",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/thumb-1920-1261867.png",
+                        "uuid": "f11398bb-6a27-454f-862f-5fe0218d7359",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/totoro.jpeg",
+                        "uuid": "c2c75bd2-0dfd-4586-9648-03c04ef4a9eb",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/tumblr-otytsfsih-J1uuensxo1-1280.png",
+                        "uuid": "9b0539bf-6a82-4889-b728-e9e0572f7fb2",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/unl50frfn8e81.png",
+                        "uuid": "473ce3ae-e920-468f-9a99-2b3656a1d899",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/vector_planet_moon.png",
+                        "uuid": "1c06a427-6c93-403b-b6d4-645d677c7bf2",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wall_secondary.png",
+                        "uuid": "b4ec7637-eaa1-4027-815c-a922fbe5b092",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wall-01 (1).png",
+                        "uuid": "deeb34f7-f00f-4bc5-ba52-3f90122167dd",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallDiscord.png",
+                        "uuid": "e48874f8-ce85-4fef-a4d3-2dd0d20b1704",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-2e2xyx.jpg",
+                        "uuid": "be8c1f45-e136-47a0-b45b-a314fcdfd0ec",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-2e9yrx.jpg",
+                        "uuid": "8f36fe86-4cf0-4253-9c3b-c2852a3e0658",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-2yw1qx.jpg",
+                        "uuid": "68ba6759-2c1e-46e1-af6a-fbce1ad040a1",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-2yxp16.jpg",
+                        "uuid": "ec9f6972-13d7-4879-a751-2b0e63ab5ddf",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-3kgexy.jpg",
+                        "uuid": "cffc6539-43c1-42ed-ac85-75ba20df7ebd",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-3kkpq3.jpg",
+                        "uuid": "044321ac-a411-4942-9426-2ee8f9479ff4",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-3kv2dd.jpg",
+                        "uuid": "fd21f268-44ba-4915-ba41-4c972dba756d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-3l9z69.png",
+                        "uuid": "00e0feb0-536d-4126-8568-1ab779de2eb7",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-3ldq2v.jpg",
+                        "uuid": "187d325b-cc10-4611-b13f-0947725a474e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-3lqj1d.jpg",
+                        "uuid": "de1ca1f3-69f7-40a8-902d-520a00f8243a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-4grxg3.jpg",
+                        "uuid": "799ea230-bd99-4e79-8f8a-26c522284e92",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-7p3we9.png",
+                        "uuid": "c718a202-4e76-4684-bebf-ce48d4ac7939",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-8ogr81.png",
+                        "uuid": "b40ad34a-58c6-42cc-9872-6852a4289c6e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-9mlyv8.jpg",
+                        "uuid": "a628cf13-3c82-42d1-ae06-c6c6a92a393f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-39rwr3.jpg",
+                        "uuid": "1e3a8277-0dd6-4d19-b3a8-dedcee541bec",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-48egk4.png",
+                        "uuid": "46bf12f6-d14b-4e1e-8236-83adb1f733d8",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-85qgdo.png",
+                        "uuid": "1309474a-93f9-4fac-9ad7-930d2455bddc",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-d6y12l.jpg",
+                        "uuid": "7dc359f7-7071-4a76-9799-4de7e5e69380",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-ex5g5o.png",
+                        "uuid": "b3364ddc-c8e0-4625-82ee-5129370eb8ef",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-ex136k.jpg",
+                        "uuid": "8bc856b1-55d5-42e2-85da-0cf1177ab145",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-expper.jpg",
+                        "uuid": "44287135-591b-447a-b7cc-d0fe7079b37e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-exvklr.jpg",
+                        "uuid": "194474ef-2887-4c7f-b96c-f26739b6239f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-gpegye.jpg",
+                        "uuid": "06bb0303-e69c-41eb-a1e3-7a26017be183",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-gpelxl.jpg",
+                        "uuid": "3a7e00a1-fe16-4c42-858a-f864b031a82c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-gpg5ql.jpg",
+                        "uuid": "a615e1ef-f014-47f2-961c-edc4df798bf4",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-gpl8d3.jpg",
+                        "uuid": "0dc66554-e99f-4aab-8a28-a0e1c2f9f4bc",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-jxg8l5.png",
+                        "uuid": "56e6b0bd-c783-45a3-b213-32e6f15e5568",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-jxgd25.jpg",
+                        "uuid": "7a5adc55-ea92-4fd8-9f4f-170e472bcf84",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-jxj22q.png",
+                        "uuid": "9f5fef30-8388-4b11-a4f2-6b1275c76c32",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-jxzj2p.jpg",
+                        "uuid": "02f1691f-edc7-435a-814d-5c1c8be676a2",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-k9l3jd.png",
+                        "uuid": "2e76b782-108e-4527-a982-826a121aa996",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-kxo38d.png",
+                        "uuid": "755dd736-915f-4d97-a240-52d3c6315931",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-l8vp7y.jpg",
+                        "uuid": "303d4a42-3427-4848-936a-31949381c845",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-l81og2.jpg",
+                        "uuid": "9d508e51-a609-4edd-9e31-4a76ddb485a6",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-l81r22.jpg",
+                        "uuid": "e05aa8c6-a402-4bd6-af57-ff4f6bd44265",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-m3k6om.jpg",
+                        "uuid": "cdf6b0f8-1bdd-4c98-9074-fb341336b68d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-o5m9xm.png",
+                        "uuid": "b2b7d942-4ca5-4329-863d-ebfb8008f713",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-o5p5rl.jpg",
+                        "uuid": "0ea2cbd7-b2dd-4b26-8e32-173fd17f430a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-o5rmll.jpg",
+                        "uuid": "1ebc361a-d526-4b83-9247-a4bf7730bd41",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-oddrr5.jpg",
+                        "uuid": "5344dc04-6bbe-41e2-80c6-12ed110621a6",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-ox2pm5.jpg",
+                        "uuid": "cefc4c20-2a35-46d4-b5b3-5fb6efef0bbf",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-p9jp2e.png",
+                        "uuid": "3f4f9b33-aa79-4821-b2e9-8b51b6203afe",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-p96odm.png",
+                        "uuid": "e2c12892-d263-4678-b99c-e2b9daae42a2",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-q2p98l.png",
+                        "uuid": "b27f4494-27ae-425a-995f-3f2f84f47d2f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-q6q6qq.png",
+                        "uuid": "e7f06fc3-ab10-4ad8-8111-a7ed0ec8ed9c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-qzy8wl.jpg",
+                        "uuid": "d8c89d0e-a7c8-43aa-b791-e7c3384234e4",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-rr9kyw.png",
+                        "uuid": "ead47244-bd13-43be-9777-52b29ea5fa50",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-rrxmgw.jpg",
+                        "uuid": "767c5990-c676-4507-91da-478f68a12744",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-vgjd55.jpg",
+                        "uuid": "c9c208b0-ab26-49dd-bf4b-35d7cea88baf",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-vq6kz8.jpg",
+                        "uuid": "bf6c0ab0-dce3-44a5-917e-d358941530f7",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-vq127l.jpg",
+                        "uuid": "9f8850c8-62cd-4234-a43f-9820a19ac04b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-wejgqr.jpg",
+                        "uuid": "6f4c5b6c-10da-4d8b-a99e-bcc38a98a32b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-wyqgrr.jpg",
+                        "uuid": "20aac442-d301-47ad-805f-1566366351be",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-x6kvq3.png",
+                        "uuid": "b1ff889c-cb12-4ed0-9d1f-7e0ddfdd51d5",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-x6mxll.png",
+                        "uuid": "88f1db94-966e-4680-b33d-0c650279ab14",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-x6myko.jpg",
+                        "uuid": "8975adf4-51e5-4c1b-97ce-099bf6787a8f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-yjk6ml.jpg",
+                        "uuid": "a5aa3c1b-e1a0-479f-917c-882216133b6f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-yxdrex.png",
+                        "uuid": "97ca2baf-e753-4b19-90ee-5a1bb23b27b5",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-yxdvjx.png",
+                        "uuid": "31e4d7a6-f112-4d61-b660-df47c0f1dd1a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-yxlpv7.jpg",
+                        "uuid": "93903141-e594-499f-a639-51807dd16c91",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wallhaven-zywe5j.jpg",
+                        "uuid": "fe996ca4-42ee-46bd-bbfc-b27a981fb7a0",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/wang-xi-eaj25.png",
+                        "uuid": "dbe912bf-5b4c-4288-abd7-208683c5c50c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/windows-panic.png",
+                        "uuid": "3f52a238-eb17-4f6a-8d58-df8d2759f8d3",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "/home/execu/Pictures/Wallpapers/Images/yhaucvz246161.png",
+                        "uuid": "ed3c35d9-ed0c-46d6-943d-a009392ac0aa",
+                        "selected": false,
+                        "hidden": false
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "SlideShow.PlayPause": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": [],
+                "SlideShow.NextSlide": [],
+                "SlideShow.PreviousSlide": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        }
+    ],
+    "groups": [],
+    "quick_transitions": [
+        {
+            "name": "Cut",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 1,
+            "fade_to_black": false
+        },
+        {
+            "name": "Fade",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 2,
+            "fade_to_black": false
+        },
+        {
+            "name": "Fade",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 3,
+            "fade_to_black": true
+        }
+    ],
+    "transitions": [],
+    "saved_projectors": [],
+    "canvases": [],
+    "current_transition": "Fade",
+    "transition_duration": 300,
+    "preview_locked": false,
+    "scaling_enabled": false,
+    "scaling_level": -16,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "modules": {
+        "scripts-tool": [],
+        "output-timer": {
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "autoStartStreamTimer": false,
+            "autoStartRecordTimer": false,
+            "pauseRecordTimer": true
+        }
+    },
+    "resolution": {
+        "x": 1920,
+        "y": 1080
+    },
+    "version": 2
+}

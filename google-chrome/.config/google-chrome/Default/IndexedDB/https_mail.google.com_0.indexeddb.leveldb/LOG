@@ -1,0 +1,6 @@
+2025/09/20-13:37:04.479 2c74 Reusing MANIFEST /home/execu/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/20-13:37:04.479 2c74 Recovering log #3
+2025/09/20-13:37:04.480 2c74 Reusing old log /home/execu/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2025/09/20-13:37:28.746 2c76 Level-0 table #5: started
+2025/09/20-13:37:28.793 2c76 Level-0 table #5: 3214556 bytes OK
+2025/09/20-13:37:28.797 2c76 Delete type=0 #3

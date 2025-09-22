@@ -1,0 +1,4 @@
+2025/09/05-14:01:04.889 14b92 Reusing MANIFEST /home/execu/.config/Proton Mail/Partitions/app/IndexedDB/https_mail.proton.me_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/05-14:01:04.889 14b92 Recovering log #12
+2025/09/05-14:01:04.890 14b92 Reusing old log /home/execu/.config/Proton Mail/Partitions/app/IndexedDB/https_mail.proton.me_0.indexeddb.leveldb/000012.log 
+2025/09/05-14:01:04.890 14b92 Delete type=2 #11

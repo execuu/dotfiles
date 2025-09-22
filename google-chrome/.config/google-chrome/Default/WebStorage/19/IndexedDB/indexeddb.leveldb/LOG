@@ -1,0 +1,25 @@
+2025/09/20-02:19:43.994 917 Reusing MANIFEST /home/execu/.config/google-chrome/Default/WebStorage/19/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/09/20-02:19:43.995 917 Recovering log #149
+2025/09/20-02:19:43.995 917 Reusing old log /home/execu/.config/google-chrome/Default/WebStorage/19/IndexedDB/indexeddb.leveldb/000149.log 
+2025/09/20-02:19:43.995 917 Delete type=2 #148
+2025/09/20-02:19:44.005 917 Level-0 table #154: started
+2025/09/20-02:19:44.008 917 Level-0 table #154: 12221 bytes OK
+2025/09/20-02:19:44.012 917 Delete type=0 #149
+2025/09/20-02:19:44.013 912 Manual compaction at level-0 from '\x007\x00\x00\x00' @ 72057594037927935 : 1 .. '\x008\x00\x00\x00' @ 0 : 0; will stop at '\x007\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\x109.3\x96yB\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 4857 : 1
+2025/09/20-02:19:44.013 912 Compacting 1@0 + 1@1 files
+2025/09/20-02:19:44.016 912 Generated table #155@0: 344 keys, 6477 bytes
+2025/09/20-02:19:44.016 912 Compacted 1@0 + 1@1 files => 6477 bytes
+2025/09/20-02:19:44.019 912 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/20-02:19:44.019 912 Delete type=2 #154
+2025/09/20-02:19:44.019 923 Manual compaction at level-0 from '\x007\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\x109.3\x96yB\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 4857 : 1 .. '\x008\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/09/20-02:19:44.020 912 Level-0 table #157: started
+2025/09/20-02:19:44.022 912 Level-0 table #157: 1863 bytes OK
+2025/09/20-02:19:44.024 912 Delete type=2 #151
+2025/09/20-02:19:44.024 912 Delete type=0 #153
+2025/09/20-02:19:44.025 912 Manual compaction at level-0 from '\x006\x00\x00\x00' @ 72057594037927935 : 1 .. '\x007\x00\x00\x00' @ 0 : 0; will stop at '\x008\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 4962 : 1
+2025/09/20-02:19:44.025 912 Compacting 1@0 + 1@1 files
+2025/09/20-02:19:44.027 912 Generated table #158@0: 345 keys, 3997 bytes
+2025/09/20-02:19:44.027 912 Compacted 1@0 + 1@1 files => 3997 bytes
+2025/09/20-02:19:44.029 912 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/20-02:19:44.029 912 Delete type=2 #157
+2025/09/20-02:19:44.030 912 Manual compaction at level-0 from '\x008\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 4962 : 1 .. '\x007\x00\x00\x00' @ 0 : 0; will stop at (end)

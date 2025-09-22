@@ -1,0 +1,41 @@
+2025/09/22-14:14:12.770 4b8 Reusing MANIFEST /home/execu/.config/google-chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/22-14:14:12.771 4b8 Recovering log #183
+2025/09/22-14:14:12.810 4b8 Reusing old log /home/execu/.config/google-chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000183.log 
+2025/09/22-14:14:18.348 4ba Level-0 table #193: started
+2025/09/22-14:14:18.386 4ba Level-0 table #193: 1943767 bytes OK
+2025/09/22-14:14:18.389 4ba Delete type=0 #183
+2025/09/22-14:14:18.402 4ba Compacting 1@1 + 6@2 files
+2025/09/22-14:14:18.503 4ba Generated table #194@1: 64543 keys, 2205195 bytes
+2025/09/22-14:14:18.609 4ba Generated table #195@1: 56152 keys, 2197372 bytes
+2025/09/22-14:14:18.642 4ba Generated table #196@1: 7517 keys, 2123028 bytes
+2025/09/22-14:14:18.665 4ba Generated table #197@1: 4018 keys, 2113958 bytes
+2025/09/22-14:14:18.708 4ba Generated table #198@1: 7431 keys, 2135798 bytes
+2025/09/22-14:14:18.743 4ba Generated table #199@1: 17495 keys, 922871 bytes
+2025/09/22-14:14:18.744 4ba Compacted 1@1 + 6@2 files => 11698222 bytes
+2025/09/22-14:14:18.746 4ba compacted to: files[ 0 0 6 0 0 0 0 ]
+2025/09/22-14:14:18.746 4ba Delete type=2 #186
+2025/09/22-14:14:18.746 4ba Delete type=2 #190
+2025/09/22-14:14:18.746 4ba Delete type=2 #189
+2025/09/22-14:14:18.746 4ba Delete type=2 #188
+2025/09/22-14:14:18.746 4ba Delete type=2 #193
+2025/09/22-14:14:18.746 4ba Delete type=2 #187
+2025/09/22-14:14:18.747 4ba Delete type=2 #185
+2025/09/22-14:15:30.276 4ba Level-0 table #201: started
+2025/09/22-14:15:30.309 4ba Level-0 table #201: 1671176 bytes OK
+2025/09/22-14:15:30.312 4ba Delete type=0 #192
+2025/09/22-14:15:30.676 4ba Compacting 1@1 + 6@2 files
+2025/09/22-14:15:30.747 4ba Generated table #202@1: 62778 keys, 2203292 bytes
+2025/09/22-14:15:30.794 4ba Generated table #203@1: 55891 keys, 2195777 bytes
+2025/09/22-14:15:30.814 4ba Generated table #204@1: 11454 keys, 2148955 bytes
+2025/09/22-14:15:30.828 4ba Generated table #205@1: 1596 keys, 2108182 bytes
+2025/09/22-14:15:30.851 4ba Generated table #206@1: 9814 keys, 2140046 bytes
+2025/09/22-14:15:30.872 4ba Generated table #207@1: 17433 keys, 982507 bytes
+2025/09/22-14:15:30.872 4ba Compacted 1@1 + 6@2 files => 11778759 bytes
+2025/09/22-14:15:30.875 4ba compacted to: files[ 0 0 6 0 0 0 0 ]
+2025/09/22-14:15:30.875 4ba Delete type=2 #197
+2025/09/22-14:15:30.876 4ba Delete type=2 #194
+2025/09/22-14:15:30.876 4ba Delete type=2 #196
+2025/09/22-14:15:30.876 4ba Delete type=2 #199
+2025/09/22-14:15:30.876 4ba Delete type=2 #201
+2025/09/22-14:15:30.876 4ba Delete type=2 #198
+2025/09/22-14:15:30.876 4ba Delete type=2 #195
